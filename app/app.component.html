@@ -1,0 +1,4 @@
+<app-child [message] = "appmessage"></app-child>
+<app-child (message2)="appmessage2=$event"></app-child>
+<h2>{{appmessage2}}</h2>
+<router-outlet></router-outlet>
